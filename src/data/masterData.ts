@@ -147,7 +147,7 @@ export const tabsData: TabData[] = [
       },
       {
         id: 'da-intermediate',
-        title: 'Absolute & Relative Cell Referencing Activity, Basic Excel Functions',
+        title: 'Absolute & Relative Cell Referencing Activity',
         description: 'Learn how to use absolute and relative cell referencing in Excel to control formula behavior.',
         level: 'intermediate',
         url: 'https://www.youtube.com/embed/BHRbNSZfTdA?si=EeXeflEK141jDTIB',
