@@ -28,6 +28,7 @@ function App() {
   return (
     <div className="min-h-screen bg-[#004246] py-8">
       <div className="max-w-7xl mx-auto px-4">
+        {/* User Form with reduced margin */}
         <UserForm
           name={name}
           number={number}
@@ -37,14 +38,15 @@ function App() {
         />
 
         <div className="bg-[#004246] rounded-lg p-6">
+          {/* TabList without top margin */}
           <TabList
             tabs={tabsData}
             activeTab={activeTab}
             onTabChange={setActiveTab}
           />
           
-          {/* Added margin-top here for spacing */}
-          <div className="mt-8">
+          {/* Reduced margin-top between TabList and VideoGrid */}
+          <div className="mt-4">
             <VideoGrid
               videos={tabsData[activeTab].videos}
               onView={(url) => setModalUrl(url)}
@@ -54,6 +56,7 @@ function App() {
         </div>
       </div>
 
+      {/* Video modal */}
       {modalUrl && (
         <VideoModal
           url={modalUrl}
