@@ -139,18 +139,18 @@ export const tabsData: TabData[] = [
     videos: [
       {
         id: 'da-beginner',
-        title: 'Introduction to Data Analytics',
-        description: 'Learn the fundamentals of data analytics and its applications',
+        title: 'Statistics (Average, Mode, Median) and Advanced Analysis',
+        description: 'Learn how to calculate the average, mode, and median in statistics, and dive into advanced analysis techniques to derive deeper insights from your data.',
         level: 'beginner',
-        url: 'https://www.youtube.com/embed/6Te3A-bLAv4',
+        url: 'https://www.youtube.com/embed/hM5E1ZstjnM?si=TOmNlOBRhG1Kp_w1',
         category: 'Data Analytics'
       },
       {
         id: 'da-intermediate',
-        title: 'Advanced Data Analysis',
-        description: 'Deep dive into advanced data analysis techniques and AI applications',
+        title: 'Absolute & Relative Cell Referencing Activity, Basic Excel Functions',
+        description: 'Learn how to use absolute and relative cell referencing in Excel to control formula behavior, and explore basic Excel functions for efficient calculations and data analysis',
         level: 'intermediate',
-        url: 'https://www.youtube.com/embed/fp7Ue080rko',
+        url: 'https://www.youtube.com/embed/BHRbNSZfTdA?si=EeXeflEK141jDTIB',
         category: 'Data Analytics'
       }
     ]
