@@ -2,8 +2,6 @@
 
 A modern, responsive React application for organizing and sharing educational video content across different programming domains.
 
-![Video Learning Portal](https://source.unsplash.com/random/1200x630/?coding)
-
 ## 🚀 Features
 
 - **📱 Responsive Design**: Works seamlessly across desktop, tablet, and mobile devices
